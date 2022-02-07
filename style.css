@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 250vh;
+    width: 100%;
+    background-color: black;
+}
+#nav{
+    align-items: center;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background: linear-gradient(to right,rgb(209, 209, 122),rgb(209, 209, 98),rgb(111, 190, 201));
+}
+#a1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    color: rgb(65, 57, 53);
+    font-family: gilroy;
+    background: linear-gradient(to bottom right, rgb(158, 133, 22),rgb(243, 239, 177));
+    box-shadow: 1px 1px 8px rgb(56, 56, 56);
+}
+#a1 h1{
+    font-weight: 400;
+}
+#a2{
+    text-decoration: none;
+    color: black;
+    margin-left: 80px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: gilroy;
+}
+#a3{
+    width: 90%;
+}
+#a4{
+    position: absolute;
+    top: 95%;
+    font-family: gilroy;
+    margin-left: 2.5%;
+    font-weight: 350;
+    color: white;
+}
+#a5{
+    position: absolute;
+    width: 95%;
+    height: 1px;
+    margin-left: 2.5%;
+    background-color: white;
+    top: 103%;
+}
+#action{
+    width: 95%;
+    margin-top: 150px;
+    height: 200px;
+    margin-left: 2.5%;
+    /* background-color: blanchedalmond; */
+    display: flex;
+}
+.a6{
+    margin-right: 15px;
+    width: 220px;
+    height: 100%;
+    background-color: yellow;
+    position: relative;
+}
+.a6 :hover{
+    cursor: pointer;
+}
+.a6 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+#overlay{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom ,transparent ,transparent, black);
+
+    /* opacity: 0.5; */
+}
+#overlay h2{
+    position: absolute;
+    margin-top: 130px;
+    color: white;
+}
+#overlay h3{
+    position: absolute;
+    margin-top: 155px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+#b1{
+    position: absolute;
+    top: 145%;
+    font-family: gilroy;
+    margin-left: 2.5%;
+    font-weight: 350;
+    color: white;
+}
+#b2{
+    position: absolute;
+    width: 95%;
+    height: 1px;
+    margin-left: 2.5%;
+    background-color: white;
+    top: 153%;
+}
+#drama{
+    width: 95%;
+    margin-top: 180px;
+    height: 200px;
+    margin-left: 2.5%;
+    /* background-color: blanchedalmond; */
+    display: flex;
+}
+#c1{
+    position: absolute;
+    top: 195%;
+    font-family: gilroy;
+    margin-left: 2.5%;
+    font-weight: 350;
+    color: white;
+}
+#c2{
+    position: absolute;
+    width: 95%;
+    height: 1px;
+    margin-left: 2.5%;
+    background-color: white;
+    top: 203%;
+}
+#sci{
+    width: 95%;
+    margin-top: 180px;
+    height: 200px;
+    margin-left: 2.5%;
+    /* background-color: blanchedalmond; */
+    display: flex;
+}
+#nav2{
+    margin-top: 70px;
+    align-items: center;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background: linear-gradient(to right,rgb(209, 209, 122),rgb(209, 209, 98),rgb(111, 190, 201));
+}
+#nav2 h2{
+    font-size: 18px;
+    font-family: gilroy;
+    font-weight: 300;
+    margin-left: 40px;
+}
